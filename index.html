@@ -2,10 +2,32 @@
 <html lang="en">
   <head>
     <title>Caixa Alta</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <input id="text" type="text" />
-    <button id="btn">transformar</button>
-    <div id="result"></div>
+    <header class="main-container">
+      <div class="header-container">
+        <img
+          src="/assets/igors-upper-transparent.png"
+          alt="logo"
+          class="logo"
+        />
+        <h1 class="title">Igor's Uppercase</h1>
+      </div>
+    </header>
+    <hr />
+
+    <div class="main-container padding-25">
+      <h1 class="instruction-title">Insira o texto que deseja transformar</h1>
+      <div class="container body-body">
+        <!-- <input id="input-text" type="text" /> -->
+        <textarea id="input-text" name="text" rows="4" cols="10" wrap="soft">
+        </textarea>
+        <button id="btn">Transformar</button>
+
+        <div id="result"></div>
+      </div>
+    </div>
   </body>
 </html>
